@@ -1,162 +1,277 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<body>
 
-    <title>Lionel Messi</title>
-  </head>
-  <body style=" background-color: rgb(255, 183, 89); text-align: center;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Messi</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-    <div style="color: white;" ><h1 ><b>You are the one</b></h1></div>
-    <h3 style="color: rgb(241, 20, 20);"><b>Leo messi is the best. He is the G.O.A.T of football</b></h3>
-    <p style="border:3px; border-style:dotted; border-color:#e9ec0d; padding: 1em;">
-        Lionel Andrés Messi , born on 24 June 1987, is an Argentine footballer who currently plays for Barcelona and the Argentine national team. He is one of the best football players of his generation and is frequently considered as the world's best contemporary player. Lionel Messi, whose playing style and ability have drawn comparisons to Diego Maradona, received Ballon d'Or and FIFA World Player of the Year nominations by the age of 21 and won both by the age of 22. Diego Maradona once declared that Messi was his "successor."
-    </p>
- 
-    <div class="container" >
-    <img src="https://source.unsplash.com/1600x900/?football" alt="" >
-  </div>
-    <div style="padding: 2%; color: white;"><h2>And he is the one of the greatest football player who encouraged many of us to face hard hardest situation. Kudos to him!</h2></div>
-   <div class="container">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://source.unsplash.com/1600x900/?singing" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://source.unsplash.com/1600x900/?dancing" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://source.unsplash.com/1600x900/?sky" class="d-block w-100" alt="...">
-          </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MESSI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pricing
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Low to high</a></li>
+                            <li><a class="dropdown-item" href="#">High to low</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    </nav>
+
+
+    <h3 style="color: rgb(20, 241, 212);"><b>Leo messi is the best. He is the G.O.A.T of football</b></h3>
+    <p style="border:3px; border-style:dotted; border-color:#2e0dec; padding: 1em;">
+        Lionel Andrés Messi , born on 24 June 1987, is an Argentine footballer who currently plays for Barcelona and the
+        Argentine national team. He is one of the best football players of his generation and is frequently considered
+        as the world's best contemporary player. Lionel Messi, whose playing style and ability have drawn comparisons to
+        Diego Maradona, received Ballon d'Or and FIFA World Player of the Year nominations by the age of 21 and won both
+        by the age of 22. Diego Maradona once declared that Messi was his "successor."
+    </p>
+
+
+    <!-- carousel -->
+    <div class="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/1600x900/?football" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1600x900/?messi" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1600x900/?boot" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
     </div>
-      <h3 style="color: rgb(250, 18, 30);"><b>Leo messi is the best. He is the G.O.A.T of football and now he has joined PSG</b></h3>
-    <p  style="border:3px; border-style:dotted; border-color:#d9f00c; padding: 1em;">
-        Paris Saint-Germain are already surging clear towards the Ligue 1 title in France even as Lionel Messi has so far been held back for the Champions League, in which he got his first goal for his new club in midweek. Messi's majestic strike sealed a 2-0 win over Pep Guardiola's Manchester City that sent out a statement to the rest of Europe, PSG confirming that they are leading contenders to go all the way in the Champions League. That is why they signed Messi, as they look to win the European Cup for the first time, and that is why Messi came to Paris following his departure from Barcelona, convinced that the Qatar-owned club offered him the best chance to get his hands on a trophy that has eluded him since 2015.
+
+
+
+    <h3 style="color: rgb(18, 234, 250);"><b>Leo messi is the best. He is the G.O.A.T of football and now he has joined
+            PSG</b></h3>
+    <p style="border:3px; border-style:dotted; border-color:#140cf0; padding: 1em;">
+        Paris Saint-Germain are already surging clear towards the Ligue 1 title in France even as Lionel Messi has so
+        far been held back for the Champions League, in which he got his first goal for his new club in midweek. Messi's
+        majestic strike sealed a 2-0 win over Pep Guardiola's Manchester City that sent out a statement to the rest of
+        Europe, PSG confirming that they are leading contenders to go all the way in the Champions League. That is why
+        they signed Messi, as they look to win the European Cup for the first time, and that is why Messi came to Paris
+        following his departure from Barcelona, convinced that the Qatar-owned club offered him the best chance to get
+        his hands on a trophy that has eluded him since 2015.
     </p>
 
-      <div style="color: white; padding: 3%;"><h4>Hope you enjoyed it</h4></div>
-      <div class="container my-4">
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary">World</strong>
-                <h3 class="mb-0">Global  Conferences  </h3>
-                <div class="mb-1 text-muted">Nov 12</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-     
-              </div>
+
+    <!-- cards -->
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                        <p class="card-text">And he is the one of the greatest football player who encouraged many of us
+                            to face hard hardest situation. Kudos to him!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success">Design</strong>
-                <h3 class="mb-0">Learn Designing</h3>
-                <div class="mb-1 text-muted">Nov 11</div>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-     
-              </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                        <p class="card-text">And he is the one of the greatest football player who encouraged many of us
+                            to face hard hardest situation. Kudos to him!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                        <p class="card-text">And he is the one of the greatest football player who encouraged many of us
+                            to face hard hardest situation. Kudos to him!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                        <p class="card-text">And he is the one of the greatest football player who encouraged many of us
+                            to face hard hardest situation. Kudos to him!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                        <p class="card-text">And he is the one of the greatest football player who encouraged many of us
+                            to face hard hardest situation. Kudos to him!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
+                    </svg>
+
+                    <div class="card-body">
+                        <p class="card-text">And he is the one of the greatest football player who encouraged many of us
+                            to face hard hardest situation. Kudos to him!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>    
-      <div class="container ">
-          <div class="row mb-2">
-            <div class="col-md-6">
-              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-primary">World</strong>
-                  <h3 class="mb-0">Global  Conferences  </h3>
-                  <div class="mb-1 text-muted">Nov 12</div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-       
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-success">Design</strong>
-                  <h3 class="mb-0">Learn Designing</h3>
-                  <div class="mb-1 text-muted">Nov 11</div>
-                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                    <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-       
-                </div>
-              </div>
-            </div>
-          </div>
+    </div>
+
+
+    <div class="container my-4">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
         </div>
 
-        <form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Name</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <br/>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Get Daily NewsLetter</button>
-  </div>
-</form>   
- 
-      <footer>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+
+        <button type="button" class="btn btn-success">submit</button>
+    </div>
+
+
+
+    <footer>
         <p >Reference<br>
         <!-- <a href="mailto:hege@example.com">hege@example.com</a></p> -->
         <div class="lg:w-1/2 px-6">
@@ -165,9 +280,9 @@
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2 class="title-font font-semibold text-blue-900 tracking-widest text-xs">EMAIL</h2>
-            <a class="text-indigo-500 leading-relaxed">batman@mail.com</a>
+            <a class="text-indigo-500 leading-relaxed">juu@mail.com</a>
             <h2 class="title-font font-semibold text-blue-900 tracking-widest text-xs mt-4">PHONE</h2>
-            <p class="leading-relaxed">123-456-7890</p>
+            <p class="leading-relaxed">123-456-789</p>
           </div>
          
       </footer>
@@ -175,7 +290,7 @@
         footer {
           text-align: center;
           padding: 3px;
-          background-color: rgb(15, 6, 3);
+          background-color: rgb(244, 236, 234);
           color: white;
         }
         </style>
@@ -184,18 +299,14 @@
     footer {
       text-align: center;
       padding: 3px;
-      background-color: rgb(15, 6, 3);
+      background-color: rgb(17, 222, 229);
       color: white;
     }
     </style>
 
-      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css"></script>
-    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
